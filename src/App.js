@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 import { Route, Routes } from 'react-router-dom';
@@ -25,8 +25,6 @@ function App() {
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/chackout/:serviceId' element={
           <RequireAuth><Chackout></Chackout></RequireAuth>
-
-
 
 
         }></Route>
