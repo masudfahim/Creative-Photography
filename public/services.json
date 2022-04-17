@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Fashion Photography",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/yg3BJTt/fashion.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Sports Photography",
+        "price": "100",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/zxQZv3Y/sports.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Architectural Photography",
+        "price": "150",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/6FW5Hd1/Architectur.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Lifestyle photography ",
+        "price": "180",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/zJ0LgXV/lifestyle.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Traditional photography",
+        "price": "100",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/cgWFLFL/Traditional.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Natural photography ",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/FJd4gdP/natural.jpg"
+    }
+]
