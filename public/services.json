@@ -3,42 +3,42 @@
         "id": 1,
         "name": "Fashion Photography",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.",
         "img": "https://i.ibb.co/yg3BJTt/fashion.jpg"
     },
     {
         "id": 2,
         "name": "Sports Photography",
         "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "There are many elements in photography that come together to make an image be considered “good”. Elements like lighting, the rule of thirds, lines, shapes, texture, patterns, and color all work well together to add interest and a great deal of composition in photographs.",
         "img": "https://i.ibb.co/zxQZv3Y/sports.jpg"
     },
     {
         "id": 3,
         "name": "Architectural Photography",
         "price": "150",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Architectural photography is about capturing not only the design and accurate representation of a building, but to have the shots be aesthetically pleasing to the viewer's.",
         "img": "https://i.ibb.co/6FW5Hd1/Architectur.jpg"
     },
     {
         "id": 4,
         "name": "Lifestyle photography ",
         "price": "180",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Lifestyle photography is a genre of photography that mainly aims to capture portraits of people in situations, real-life events or milestones in an artistic manner and the art of the everyday",
         "img": "https://i.ibb.co/zJ0LgXV/lifestyle.jpg"
     },
     {
         "id": 5,
         "name": "Traditional photography",
         "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "In contrast to candid photography, traditional photography involves sitting down pictures of the people. They are aware that somebody is clicking their picture. This kind of photography is more formal in its approach.",
         "img": "https://i.ibb.co/cgWFLFL/Traditional.jpg"
     },
     {
         "id": 6,
         "name": "Natural photography ",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "description": "Nature photography is a wide range of photography taken outdoors and devoted to displaying natural elements such as landscapes, wildlife, plants, and close-ups of natural scenes and textures.",
         "img": "https://i.ibb.co/FJd4gdP/natural.jpg"
     }
 ]

@@ -4,8 +4,19 @@ import './Bannar.css'
 
 const Bannar = () => {
     return (
-        <div>
-            <img className='bannar' src={banner1} alt="" />
+        <div className='main'>
+            <div>
+
+
+            </div>
+            <div>
+                <div>
+                    <img className='bannar' src={banner1} alt="" />
+                </div>
+
+            </div>
+
+
 
         </div>
     );

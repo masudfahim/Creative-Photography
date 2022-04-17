@@ -13,6 +13,7 @@ import Footer from './shared/Footer/Footer';
 import Chackout from './Pages/Chackout/Chackout';
 import Loading from './shared/Loading/Loading';
 import Register from './Pages/Login/Register/Register';
+import RequireAuth from './Pages/Login/Require auth/RequireAuth';
 
 function App() {
   return (
@@ -22,7 +23,13 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
-        <Route path='/chackout/:serviceId' element={<Chackout></Chackout>}></Route>
+        <Route path='/chackout/:serviceId' element={
+          <RequireAuth><Chackout></Chackout></RequireAuth>
+
+
+
+
+        }></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/services' element={<Services></Services>}></Route>
         <Route path='login' element={<Login></Login>}></Route>
