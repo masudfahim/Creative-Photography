@@ -13,3 +13,9 @@
     font-size: 16px;
     margin-bottom: 15px;
 }
+
+#main2 {
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 8px;
+}

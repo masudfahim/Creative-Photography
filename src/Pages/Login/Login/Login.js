@@ -6,8 +6,10 @@ import auth from '../../../firebase.init';
 
 import SocialLogin from '../SocialLogin/SocialLogin';
 
-// import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';
 import Loading from '../../../shared/Loading/Loading';
+import { toast, ToastContainer } from 'react-toastify';
+import './Login.css'
 
 const Login = () => {
     const emailRef = useRef('');
@@ -54,15 +56,15 @@ const Login = () => {
         const email = emailRef.current.value;
         if (email) {
             await sendPasswordResetEmail(email);
-            // toast('Sent email');
+            toast('Sent email');
         }
         else {
-            // toast('please enter your email address');
+            toast('please enter your email address');
         }
     }
 
     return (
-        <div className='container w-50 mx-auto'>
+        <div id='main1' className='container w-50 mx-auto '>
             <h2 className='text-primary text-center mt-2'>Please Login</h2>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -76,9 +78,10 @@ const Login = () => {
                 </Button>
             </Form>
             {errorElement}
-            <p>New to Genius Car? <Link to="/register" className='text-primary pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link> </p>
+            <p>New to Creative Photography? <Link to="/register" className='text-primary pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link> </p>
             <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
             <SocialLogin></SocialLogin>
+            <ToastContainer></ToastContainer>
 
         </div>
     );
