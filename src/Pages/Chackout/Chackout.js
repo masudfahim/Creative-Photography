@@ -8,7 +8,7 @@ const Chackout = () => {
     const { serviceId } = useParams();
 
     return (
-        <div id='main2' className='register-form'>
+        <div className='register-form main-container'>
             <h2 style={{ textAlign: 'center' }}>Please Write About Yourself</h2>
             <form >
                 <input type="text" name="name" id="" placeholder='Your Name' />
